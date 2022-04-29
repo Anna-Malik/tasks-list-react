@@ -1,0 +1,33 @@
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section__buttons {
+    border: none;
+    background-color: transparent;
+    color: teal;
+    justify-items: flex-end;
+    transition: 0.5s;
+    margin: 0 0 0 20px;  
+}
+
+@media (max-width: 767px) {
+    .section__buttons {
+        flex-basis: 100%;
+        padding: 10px;
+    }}
+
+.section__buttons:hover {
+    cursor: pointer;
+    color: rgb(11, 171, 171);
+    transition: 0.5s;
+}
+
+.section__buttons:active {
+    color: hsl(180, 88%, 45%);
+}
+
+.section__buttons:disabled {
+    color: #ccc;
+}
