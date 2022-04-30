@@ -7,8 +7,8 @@ import Header from "./Header";
 import Container from "./Container";
 
 const tasks = [
-  {id: 1, content: "kupić mydło", done: true}, 
-  {id: 2, content: "zjeść jabłko", done: false},
+  { id: 1, content: "kupić mydło", done: true },
+  { id: 2, content: "zjeść jabłko", done: false },
 ];
 
 const doneTasksHidden = false;
@@ -16,19 +16,19 @@ const doneTasksHidden = false;
 function App() {
   return (
     <Container>
-    <Header 
-    title="Lista zadań"
-    />
-    <Section
-      title="Dodaj nowe zadanie" 
-      body={<Form />}
+      <Header
+        title="Lista zadań"
       />
-    <Section
-      title="Lista zadań" 
-      body={ <Tasks tasks={tasks} doneTasksHidden={doneTasksHidden} />}
-      extraHeaderContent={<Buttons tasks={tasks} doneTasksHidden={doneTasksHidden} />}
+      <Section
+        title="Dodaj nowe zadanie"
+        body={<Form />}
       />
-        </Container>
+      <Section
+        title="Lista zadań"
+        body={<Tasks tasks={tasks} doneTasksHidden={doneTasksHidden} />}
+        extraHeaderContent={<Buttons tasks={tasks} doneTasksHidden={doneTasksHidden} />}
+      />
+    </Container>
   );
 }
 export default App;

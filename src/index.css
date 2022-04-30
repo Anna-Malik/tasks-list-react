@@ -8,9 +8,9 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: rgb(232, 232, 232); 
+  background-color: rgb(232, 232, 232);
   word-break: break-word;
-};
+}
 
 .mainContainer {
   max-width: 900px;

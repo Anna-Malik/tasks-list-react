@@ -9,14 +9,15 @@
     color: teal;
     justify-items: flex-end;
     transition: 0.5s;
-    margin: 0 0 0 20px;  
+    margin: 0 0 0 20px;
 }
 
 @media (max-width: 767px) {
     .section__buttons {
         flex-basis: 100%;
         padding: 10px;
-    }}
+    }
+}
 
 .section__buttons:hover {
     cursor: pointer;

@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+
 .tasks__item {
     border-bottom: solid 2px rgb(232, 232, 232);
     padding: 20px;
@@ -11,9 +12,11 @@
     grid-template-columns: auto 1fr auto;
     align-items: center;
 }
+
 .tasks__item--hidden {
     display: none;
 }
+
 .tasks__button {
     border: none;
     color: white;
@@ -21,26 +24,31 @@
     width: 20px;
     height: 20px;
 }
+
 .tasks__content {
-    justify-content: center; 
+    justify-content: center;
 }
+
 .tasks__content--done {
     text-decoration: line-through;
 }
+
 .tasks__button--toggleDone {
     background-color: green;
 }
+
 .tasks__button--toggleDone:hover {
     background-color: rgb(34, 152, 34);
     transition: 0.5s;
     cursor: pointer;
 }
+
 .tasks__button--remove {
     background-color: crimson;
 }
+
 .tasks__button--remove:hover {
     background-color: rgb(220, 86, 113);
     transition: 0.5s;
     cursor: pointer;
 }
-
