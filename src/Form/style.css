@@ -16,7 +16,6 @@ grid-template-columns: 1fr;
     border: solid 1.5px;
     border-color: #ddd;
 }
-
 .form__button {
     padding: 10px;
     border: none;
