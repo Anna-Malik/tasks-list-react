@@ -1,4 +1,4 @@
-.section__container {
+.section {
     max-width: 900px;
     background-color: white;
     padding: 10px;
@@ -30,15 +30,4 @@
 
 .section__style {
     padding-top: 20px;
-}
-
-.section__button:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-    background-color: rgb(11, 171, 171);
-    cursor: pointer;
-}
-
-.section__button:active {
-    background-color: hsl(180, 88%, 45%);
 }
