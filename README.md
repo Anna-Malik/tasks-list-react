@@ -3,6 +3,8 @@ Application in progress at the moment,  no interactions yet.
 
 Check demo: https://anna-malik.github.io/tasks-list-react/
 
+![task list screenshot](public/screen.JPG)
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
