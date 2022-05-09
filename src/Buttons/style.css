@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 
-.section__buttons {
+.buttons__buttons {
     border: none;
     background-color: transparent;
     color: teal;
@@ -13,23 +13,34 @@
 }
 
 @media (max-width: 767px) {
-    .section__buttons {
+    .buttons__buttons {
         flex-basis: 100%;
         padding: 10px;
     }
 }
 
-.section__buttons:hover {
+.buttons__buttons:hover {
     cursor: pointer;
     color: rgb(11, 171, 171);
     transition: 0.5s;
 }
 
-.section__buttons:active {
+.buttons__buttons:active {
     color: hsl(180, 88%, 45%);
 }
 
-.section__buttons:disabled {
+.buttons__buttons:disabled {
     color: #ccc;
     cursor: not-allowed;
+}
+
+.buttons__button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: rgb(11, 171, 171);
+    cursor: pointer;
+}
+
+.buttons__button:active {
+    background-color: hsl(180, 88%, 45%);
 }
